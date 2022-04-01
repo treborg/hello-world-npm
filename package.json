@@ -1,0 +1,31 @@
+{
+  "name": "@treborguk/hello-world-npm",
+  "version": "1.0.6",
+  "description": "A simple hello world package.",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape **/*.js",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/treborg/hello-world-npm.git"
+  },
+  "keywords": [
+    "node",
+    "hello",
+    "hello-world"
+  ],
+  "author": "treborg@lbob.uk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/treborg/hello-world-npm/issues"
+  },
+  "homepage": "https://github.com/treborg/hello-world-npm#readme",
+  "devDependencies": {
+    "eslint": "^8.12.0",
+    "eslint-plugin-import": "^2.25.4",
+    "tape": "^5.5.2",
+    "husky": "^7.0.0"
+  }
+}
